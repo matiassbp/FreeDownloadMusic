@@ -4,7 +4,8 @@ const Header = () => {
   return (
     <header className="text-white p-4">
       <div className="container mx-auto flex items-center justify-center">
-        <div className="flex items-center mt-10">
+        {/* esto es momentaneo, pero hay que mejorar el margin top. */}
+        <div className="flex items-center" style={{ marginTop: '123px' }}> 
           <input
             type="text"
             placeholder="Buscar..."
