@@ -1,5 +1,6 @@
 import React from 'react'
 import "../Styles/Home.css"
+import SongCard from './SongCard'
 
 const Home = () => {
     return (
@@ -12,7 +13,7 @@ const Home = () => {
 
             <div class="CentralArea">
                 <div class="Central">
-                    <center><p>Central</p></center>
+                    <SongCard/>
                 </div>
             </div>
 

@@ -1,0 +1,56 @@
+/* SongCard.css */
+.song-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .song-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: border-color 0.3s ease;
+  }
+  
+  .song-card:hover {
+    border-color: #4CAF50; /* Color de borde al pasar el ratón */
+  }
+  
+  .song-card img {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .song-controls {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+  
+  .song-controls button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .song-controls button:hover {
+    background-color: #45a049;
+  }
+  
+  .playing {
+    border-color: #4CAF50; /* Puedes personalizar el color del borde cuando está reproduciendo */
+  }
+  
