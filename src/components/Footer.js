@@ -10,15 +10,15 @@ const Footer = () => {
           <div className="flex flex-col space-y-2 items-center">
             <div className="flex items-center">
               <RiInstagramLine className="text-pink-500 text-2xl hover:text-pink-600" />
-              <span className="ml-2">Instagram</span>
+              <span className="ml-2">Instagram 1</span>
             </div>
             <div className="flex items-center">
               <RiGithubFill className="text-gray-500 text-2xl hover:text-gray-600" />
-              <span className="ml-2">GitHub</span>
+              <span className="ml-2">GitHub 1</span>
             </div>
             <div className="flex items-center">
               <RiLinkedinBoxLine className="text-blue-500 text-2xl hover:text-blue-600" />
-              <span className="ml-2">LinkedIn</span>
+              <span className="ml-2">LinkedIn 1</span>
             </div>
             {/* Agrega más iconos y textos según sea necesario */}
           </div>
@@ -32,15 +32,15 @@ const Footer = () => {
           <div className="flex flex-col space-y-2 items-center">
             <div className="flex items-center">
               <RiInstagramLine className="text-pink-500 text-2xl hover:text-pink-600" />
-              <span className="ml-2">Instagram</span>
+              <span className="ml-2">Instagram 2</span>
             </div>
             <div className="flex items-center">
               <RiGithubFill className="text-gray-500 text-2xl hover:text-gray-600" />
-              <span className="ml-2">GitHub</span>
+              <span className="ml-2">GitHub 2</span>
             </div>
             <div className="flex items-center">
               <RiLinkedinBoxLine className="text-blue-500 text-2xl hover:text-blue-600" />
-              <span className="ml-2">LinkedIn</span>
+              <span className="ml-2">LinkedIn 2</span>
             </div>
             {/* Agrega más iconos y textos según sea necesario */}
           </div>
