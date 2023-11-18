@@ -3,7 +3,7 @@ import { RiInstagramLine, RiGithubFill, RiLinkedinBoxLine } from 'react-icons/ri
 
 const Footer = () => {
   return (
-    <footer className="text-white p-4 mt-32 ">
+    <footer className="text-white p-4">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-4">
         <div className="text-left">
           <h3 className="text-lg font-semibold mb-2 text-center">Redes Sociales</h3>
@@ -46,7 +46,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="text-center mt-4">
+      <div className="text-center">
         <p>&copy; 2023 My React App</p>
         {/* Otros elementos del pie de página */}
       </div>
